@@ -1,0 +1,7 @@
+1) a0 contains the register return value, a1 register contains 12, a2 register contains 13
+2) replacing the function call directly with the return ,compiler can do it as kind of optimization.
+3) 0000000000000628
+4) 0x38
+5) it prints 'HE110 World'
+6) it will print random numbers after "y" , the reason can be that for 'y' we put %d to write but we havn't determine what to print
+then 'printf' can choose any number to follow the instruction of the print statement
